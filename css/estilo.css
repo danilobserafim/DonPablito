@@ -1,0 +1,76 @@
+/*fORMATAÇÃO DE BLOCOS*/
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: brown;
+}
+header{
+    background-image: url(../Tela-Principal.jpg);
+    background-size: cover;
+    width: 100%;
+    color: rgb(255, 187, 0);
+    padding: 20% 0;
+}
+
+main{
+    height: 1000px;
+    background-image: url(../bgcardapio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    padding-top: 8%;
+}
+
+
+/*FORMATAÇÃO DE TITULOS*/
+h1{
+    background-color: rgb(255, 0, 0,0.5);
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px 5px rgb(40, 92, 236);
+    padding: 0.5% 0;
+}       
+h2{
+    text-shadow: 1px 1px 5px rgb(204, 214, 241);
+}
+h3{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+/*FORMATAÇÃO DE MENUS*/
+ul.nav{
+    position: fixed;
+    text-decoration: none;
+    width: 100%;
+}
+
+ul.nav li{
+    background-color: rgba(216, 133, 133, 0.493);
+    padding: 1%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    width: 30%;
+    color: blanchedalmond;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+ul.nav li:hover{
+    background:radial-gradient( rgb(158, 83, 33),rgba(248, 151, 151, 0.705));
+    border-radius: 10px;
+    border: 1px solid grey;
+    cursor: pointer;    
+    color:rgb(216, 213, 68);
+}
+
+/*FORMATAÇÃO DO RODAPÉ*/
+footer{
+    background-color: black;
+    height: 100px;
+    border: 5px rgb(122, 122, 122) groove;
+    padding-top: 3%;
+    color: gainsboro;
+}
