@@ -18,8 +18,7 @@ main{
     background-image: url(../bgcardapio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 3%;
-    padding-top: 8%;
+    margin-top: 3%;    
 }
 
 
@@ -29,15 +28,20 @@ h1{
     font-family: 'Dancing Script', cursive;
     text-shadow: 1px 1px 5px rgb(40, 92, 236);
     padding: 0.5% 0;
+    box-shadow: 1px 1px 10px white;
 }       
 h2{
-    text-shadow: 1px 1px 5px rgb(204, 214, 241);
+    text-shadow: 1px 1px 5px rgb(165, 185, 241);
 }
 h3{
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    padding: 1%;
 }
-
+article{
+    width: 100%;
+    height: 100%;
+}
 
 /*FORMATAÇÃO DE MENUS*/
 ul.nav{
@@ -56,23 +60,22 @@ ul.nav li{
     color: blanchedalmond;
     border-radius: 10px;
     margin: 0 auto;
+    box-shadow: inset 1px 1px 5px rgb(211, 211, 110);
 }
 
 ul.nav li:hover{
-    background:radial-gradient( rgb(158, 83, 33),rgba(248, 151, 151, 0.705));
-    border-radius: 10px;
-    border: 1px solid grey;
     cursor: pointer;    
     color:rgb(216, 213, 68);
 }
 
 /*FORMATAÇÃO DO RODAPÉ*/
 footer{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.6);
 
     color: gainsboro;
 }
 img.social{
     border-radius: 50%;
     margin: 2%;
+    box-shadow: 1px 1px 10px 3px white;
 }
