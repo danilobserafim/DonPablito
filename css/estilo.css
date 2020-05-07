@@ -47,7 +47,7 @@ ul.nav{
 }
 
 ul.nav li{
-    background-color: rgba(216, 133, 133, 0.493);
+    background-color: rgba(216, 133, 133, 0.5);
     padding: 1%;
     text-align: center;
     font-family: 'Dancing Script', cursive;
@@ -69,8 +69,10 @@ ul.nav li:hover{
 /*FORMATAÇÃO DO RODAPÉ*/
 footer{
     background-color: black;
-    height: 100px;
-    border: 5px rgb(122, 122, 122) groove;
-    padding-top: 3%;
+
     color: gainsboro;
+}
+img.social{
+    border-radius: 50%;
+    margin: 2%;
 }
