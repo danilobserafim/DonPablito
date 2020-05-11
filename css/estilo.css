@@ -6,7 +6,7 @@ body{
     background:linear-gradient(to top right,white, rgb(255, 115, 0) , white) ;
 }
 header{
-    background-image: url(../Tela-Principal.jpg);
+    background-image: url(../imagens/Tela-Principal.jpg);
     background-size: cover;
     width: 100%;
     color: rgb(255, 187, 0);
@@ -15,10 +15,11 @@ header{
 
 main{
     height: 1000px;
-    background-image: url(../bgcard.jpg);
+    background-image: url(../imagens/bgcard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 3%;     
+    margin-top: 3%;   
+    border-radius: 10px;  
 }
 
 
@@ -35,16 +36,16 @@ h2{
     text-shadow: 1px 1px 5px rgb(165, 185, 241);
 }
 h3{
-    background-color: rgba(0, 0, 0, 0.726);
+    background-color: rgba(71, 7, 7, 0.829);
     color: rgb(255, 255, 255);
     padding: 1%;
-    border-radius: 10px;
+    border-radius:0 0 30px 30px;
 }
 article{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.424);
-    border-radius: 10px;
+    background-color: rgba(255, 60, 0, 0.253);
+    
 }
 
 /*FORMATAÇÃO DE MENUS*/
