@@ -1,17 +1,19 @@
 /*fORMATAÇÃO DE BLOCOS*/
 body{
-    margin: 0;
+    margin: 0;  
     padding: 0;
     text-align: center;
-    background:linear-gradient(to top right,white, rgb(255, 115, 0) , white) ;
+    background:linear-gradient(to top right,white, rgb(248, 157, 83) , white) ;
 }
 header{
-    background-image: url(../imagens/Tela-Principal.jpg);
-    background-size: cover;
+    background: linear-gradient(to right, black 70%, grey);
     width: 100%;
     color: rgb(255, 187, 0);
-    padding: 20% 0;
 }
+header img{
+    width: 25%;
+}
+
 
 main{
     height: 1000px;
@@ -25,15 +27,16 @@ main{
 
 /*FORMATAÇÃO DE TITULOS*/
 h1{
-    background-color: rgb(255, 0, 0,0.5);
-    /*font-family: 'Dancing Script', cursive;*/
+    background:linear-gradient(to right,rgb(255, 0, 0,0.5) 70%, white ) ;
+    font-family: 'Dancing Script', cursive;
     text-shadow: 1px 1px 5px rgb(40, 92, 236);
     padding: 1% 0;
-    box-shadow: 1px 1px 10px white;
-    font-size: 3em;
+    
+    font-size: 4em;
 }       
 h2{
     text-shadow: 1px 1px 5px rgb(165, 185, 241);
+    font-size: 3em;
 }
 h3{
     background-color: rgba(71, 7, 7, 0.829);
@@ -65,13 +68,14 @@ ul.nav li{
     color: blanchedalmond;
     border-radius: 10px;
     margin: 0 auto;
-    box-shadow: inset 1px 1px 5px rgb(211, 211, 110);
+    
 }
 
 ul.nav li:hover{
     cursor: pointer;    
     color:rgb(216, 213, 68);
     box-shadow: none;
+    box-shadow: inset 1px 1px 5px rgb(211, 211, 110);
 }
 
 /*FORMATAÇÃO DO RODAPÉ*/
