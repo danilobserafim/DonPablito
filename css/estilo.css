@@ -3,41 +3,31 @@ body{
     margin: 0;  
     padding: 0;
     text-align: center;
-    background:bisque
+    background:rgb(65, 65, 65)
 }
+
 header{
     background: url(../imagens/Tela-Principal.jpg);
     width: 100%;
+    height: 95vh;
     background-size: cover;
     color: rgb(255, 187, 0);
     border-radius: 0 0 10px 10px;
 }
 /*formatação do cabeçalho*/
-header img{
-    width: 25%;
-}
-img#chapel{
-    padding-bottom: 3%;
-    margin-top: 1%;
+
+img#logo{
+    opacity: 0.75;
 }
 header div{
-    
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.514);
 }
-
-
 main{
-    height: 1000px;
+    height: 100vh;
     background-image: url(../imagens/bgcard.jpg);
     margin-top: 1%;   
-    border-radius: 10px;  
-}
-.navbar{
-    position: absolute;
-    margin-left: 2%;
-    border-radius: 10px;
-    opacity: 0.8;
-
+    border-radius: 10px; 
 }
 
 /*FORMATAÇÃO DE TITULOS*/
@@ -64,7 +54,7 @@ h3{
 article{
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 60, 0, 0.253);
+        
     
 }
 
@@ -83,5 +73,14 @@ footer{
 img.social{
     border-radius: 50%;
     margin: 2%;
-    box-shadow: 1px 1px 10px 3px rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+@keyframes sombra{
+    from{ box-shadow: 1px 1px 5px rgb(255, 255, 255);}
+    to{ box-shadow: 1px 1px 10px 3px rgba(255, 255, 255, 0.644);}
+}
+img.social:hover{
+    animation-name: sombra;
+    animation-duration: 0.5s;
+    box-shadow: 1px 1px 10px 3px rgba(255, 255, 255, 0.644);
 }
